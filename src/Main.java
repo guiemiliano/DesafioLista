@@ -43,6 +43,7 @@ public class Main {
         ninjas.removeFirst();
 
         //Listar ninjas - Sem o primeiro ninja
+        System.out.println("--------------------LISTA SEM O PRIMEIRO ITEM--------------------");
         for(Ninja ninja : ninjas){
             System.out.println(ninja);
         }
